@@ -1,0 +1,16 @@
+<h1>Hello from Rails!</h1>
+
+<p>
+  It is now <%= @time %>.  1 & 2 is equal to <%= 1+2 %>.  If you join up "Cow" and "Boy" using rails, it looks like:
+  <%= "Cow" + "Boy" %>.
+</p>
+
+<ul>
+  <% for file in @files %>
+    <li>file name is: <%= file %></li>
+  <% end %>
+</ul>
+
+<p>
+  Time to say <%= link_to 'Goodbye', say_goodbye_path %>
+</p>
